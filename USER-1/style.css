@@ -1,0 +1,122 @@
+/* 기초 세팅 : 자동 스타일 초기화 */
+* {
+    margin: 0; /* 상하좌우 0px */
+    padding: 0; /* 상하좌우 0px */
+    box-sizing: border-box; /**/
+  } 
+
+  header {
+    background-color: red;
+    width: 100%;
+    padding: 20px; /* 상하좌우 20px */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav {
+    background-color: black;
+    width: 100%;
+    padding: 10px; /* 상하좌우 10px */
+    display: flex;
+    gap: 20px; /*자식들 간격 조정 */
+  }
+
+  nav a {
+    color: darkorange;
+    margin: 0 15px; /* 상하 0px, 좌우 15px */
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0; /* 상하 30px, 좌우 0px */
+  }
+
+  table {
+    width: 50vw;
+    border-collapse: collapse; /*border 겹침 방지 */
+    border: 1px solid #ddd; /* 굵기 1px, solid 유형, #ddd 색상 */
+  }
+
+  th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px; /* 상하좌우 8px */
+    text-align: left;
+    background-color: darkorange;
+    color: white;
+  }
+
+  td {
+    border-bottom: 1px solid #ddd; /* 굵기 1px, solid 유형, #ddd 색상 */
+    padding: 8px; /* 상하좌우 8px */
+  }
+
+  .tmi-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* 상하좌우 20px */
+  }
+
+  .tmi-card p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .tmi-container {
+    display: flex;
+    justify-content: column;
+    padding: 20px;
+  }
+
+  .tmi-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: darkorange;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    color: darkorange;
+    text-decoration: none;
+    font-weight: regular;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
